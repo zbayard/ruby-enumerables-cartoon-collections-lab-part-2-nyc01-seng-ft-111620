@@ -31,3 +31,10 @@ def find_valid_calls(planeteer_calls)
   end
   nil
 end
+
+# def find_valid_calls(planeteer_calls)
+#   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+#   if valid_calls.find {|element| element.include?}
+#     return element
+#   end
+# end
