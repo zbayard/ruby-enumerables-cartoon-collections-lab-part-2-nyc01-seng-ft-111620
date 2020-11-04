@@ -22,19 +22,19 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
 end
 
-# def find_valid_calls(planeteer_calls)
-#   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-#   planeteer_calls.each do |element|
-#     if valid_calls.include?(element)
-#     return element
-#     end
-#   end
-#   nil
-# end
-
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  if valid_calls.find {|element| element.include?}
+  planeteer_calls.each do |element|
+    if valid_calls.include?(element)
     return element
+    end
   end
+  nil
 end
+
+# def find_valid_calls(planeteer_calls)
+#   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+#   if valid_calls.find {|element| element.include?}
+#     return element
+#   end
+# end
